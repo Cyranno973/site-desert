@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .navbar {
+  height: 12%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .navbar .logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.container .navbar .menu-icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.container .navbar nav {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+}
+
+.container .navbar nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.container .navbar nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 88%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .row .col {
+  -ms-flex-preferred-size: 49%;
+      flex-basis: 49%;
+}
+
+.container .row .col h1 {
+  color: #fff;
+  font-size: 100px;
+}
+
+.container .row .col p {
+  color: #fff;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.container .row .col button {
+  width: 180px;
+  color: #000;
+  font-size: 12px;
+  padding: 12px 0;
+  background: #fff;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
+
+.container .row .col .card {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.container .row .col .card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.container .row .col .card h5 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+
+.container .row .col .card p {
+  text-shadow: 0 0 5px #000;
+  font-size: 8px;
+}
+
+.container .row .col .card1 {
+  background-image: url(img/picture1.jpg);
+}
+
+.container .row .col .card2 {
+  background-image: url(img/picture2.jpg);
+}
+
+.container .row .col .card3 {
+  background-image: url(img/picture3.jpg);
+}
+
+.container .row .col .card4 {
+  background-image: url(img/picture4.jpg);
+}
+/*# sourceMappingURL=style.css.map */
